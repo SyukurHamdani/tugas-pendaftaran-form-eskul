@@ -311,10 +311,6 @@ btnEdit.addEventListener("click", function() {
 });
 
 
-// ==========================
-// DELETE DATA
-// ==========================
-
 function hapusData(index) {
 
     data.splice(index, 1);
