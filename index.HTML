@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FROM PENDAFTARAN EKSTRAKULIKULER</title>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+    <h1>PENDAFTARAN EKSTRAKULIKULER</h1>
+
+    <form action="">
+        <div class="formgruop">
+
+            <div class="container">
+                
+                <label for="nama"><strong>NAMA LENGKAP</strong></label>
+                <!-- <br></br>   -->
+                <input type="text" id="nama" placeholder="Masukan Nama" required>
+                <br></br>
+            </div>
+            
+            <div class="kelas">
+                <label for="kelas"><strong>KELAS</strong></label>
+                <br></br>
+                <input type="radio" id="" name="kelas" value="x">
+                <label for="kelas">x</label>
+                <input type="radio" id="" name="kelas" value="xi">
+                <label for="kelas">xi</label>
+                <input type="radio" id="" name="kelas" value="xii">
+                <label for="kelas">xii</label>
+                <br></br>
+            </div>
+            
+            
+            <div class="jurusan">
+            <label for="jurusan">JURUSAN</label>
+            <br></br>
+            <select name="nama  jurusan" id="jurusan">
+                <option value="dkv">DKV</option>
+                <option value="pplg">PPLG</option>
+                <option value="mplb">MPLB</option>
+                <option value="akl">AKL</option>
+            </select>
+            <br></br>
+        </div>
+        
+        <div class="daftareskul">
+            
+            <label for="daftar ekskul">DAFTAR EKSKUL</label>
+            <br></br>
+            <select name="nama ekskul" id="daftar ekskul">
+                <option value="web">web programming</option>
+                <option value="desain">Desain Grafis</option>
+                <option value="robot">Robotika</option>
+                <option value="futsal">futsal</option>
+            </select>
+            <br></br>
+        </div>
+        <div class="buttonsubmit">
+            
+            <button type="submit" id="btntambah"><strong>DAFTAR</strong></button>
+            <button type="button" id="btnedit" class="btn-edite"><strong>EDIT</strong></button>
+            <br></br>
+        </div>
+    </div>
+    </form>
+    
+    <h2>DAFTAR LIST</h2>
+    <div class="daftartable">
+        
+        <table>
+            <tr>
+                <th>NO</th>
+                <th>NAMA</th>
+                <th>KELAS</th>
+                <th>JURUSAN</th>
+                <th>EKSKUL</th>
+                <th>AKSI</th>
+            </tr>
+        </table>
+    </div>
+
+        
+        
+        
+        <script src="index.JS"></script>
+    </body>
+    </html>
